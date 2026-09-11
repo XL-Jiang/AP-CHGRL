@@ -1,0 +1,7 @@
+name: AP_CHGRL
+hidden_dim: [64,32]
+weighted: False
+bias: True
+alpha: 0.5
+sc_loss_lamda: 0.15
+pc_loss_lamda: 0.0025

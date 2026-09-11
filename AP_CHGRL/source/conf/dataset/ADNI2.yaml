@@ -1,0 +1,7 @@
+name: my_adni2
+batch_size: 32
+task: ADNI2_HC_EMCI_Grid_search
+wsr: 0.7
+path: "E:/fMRI_analysis/save_to_h5py/out/ABIDE2/2atlas/my_ADNI2_HC_EMCI_AAL_90+Schaefer_100_wsr-${.wsr}_adni2.h5py"
+stratified: True
+drop_last: Flase

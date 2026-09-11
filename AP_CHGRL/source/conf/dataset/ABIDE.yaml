@@ -1,0 +1,8 @@
+name: cpac_abide1
+batch_size: 32
+task: ABIDE1_NYU_Grid_search
+wsr: 0.45
+path: "E:/fMRI_analysis/save_to_h5py/out/ABIDE1/2atlas/my_871_NYU_AAL_90+BNA_246_wsr-${.wsr}_abide1.h5py"
+stratified: True
+drop_last: False
+

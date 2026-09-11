@@ -1,0 +1,24 @@
+defaults:
+  - dataset: ABIDE
+  - model: AP_CHGRL
+  - optimizer: Adam #Adam/SGD
+  - training: basic_training
+  - datasz: 100p
+  - preprocess: non_mixup
+
+state: training
+repeat_time: 5
+log_path: result
+
+kfold:
+  enable: true
+  n_splits: 5
+
+# 网格搜索配置
+grid_search:
+  enable: false  #true/false
+# wandb
+wandb_entity: APCA_HGL.yaml
+project: APCA_HGL.yaml
+
+
