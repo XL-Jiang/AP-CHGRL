@@ -1,1 +1,2 @@
-# AP-CHGRL-Anatomical-Prior-Guided-Cross-Atlas-Heterogeneous-Graph-Representation-Learning
+# AP-CHGRL
+#Anatomical-Prior-Guided-Cross-Atlas-Heterogeneous-Graph-Representation-Learning
